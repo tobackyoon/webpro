@@ -1,0 +1,134 @@
+/*.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(143, 84, 61);
+  animation-name: move;
+  animation-duration: 1.5s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(1, 1.64-0.03, 0.53, 0.97);
+
+  position: absolute;
+}
+
+@keyframes move {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  30% {
+    left: 50px;
+    top: 100px;
+    background-color: rgb(41, 85, 214);
+  }
+  50% {
+    top: 300px;
+    left: 100px;
+    width: 400px;
+    background-color: blue;
+  }
+  100% {
+    top: 300px;
+    left: 500px;
+    width: 100px;
+    background-color: rgb(255, 153, 0);
+  }
+}
+*/
+/* 공통 설정 */
+/* animation.css */
+
+@keyframes sway {
+  0% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+  25% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  50% {
+    rotate: -1.5deg;
+    translate: translateY(2px);
+  }
+  75% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  100% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+}
+@keyframes sway2 {
+  0% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+  25% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  50% {
+    rotate: -1.5deg;
+    translate: translateY(2px);
+  }
+  75% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  100% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+}
+@keyframes sway3 {
+  0% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+  25% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  50% {
+    rotate: -1.5deg;
+    translate: translateY(2px);
+  }
+  75% {
+    rotate: 1.5deg;
+    translate: translateY(1px);
+  }
+  100% {
+    rotate: 0deg;
+    translate: translateY(0);
+  }
+}
+
+.sway {
+  animation: sway 5.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+.sway2 {
+  animation: sway 5.5s ease-in-out infinite;
+  transform-origin: top left;
+}
+.sway3 {
+  animation: sway 5.5s ease-in-out infinite;
+  transform-origin: top right;
+}
+
+/* 🌬️ 살짝 랜덤한 딜레이를 부여 */
+.sway:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.sway:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.sway:nth-child(4) {
+  animation-delay: 1.2s;
+}
+.sway:nth-child(5) {
+  animation-delay: 0.6s;
+}

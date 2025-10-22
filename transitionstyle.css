@@ -1,0 +1,18 @@
+.button {
+  width: 300px;
+  height: 44px;
+  background-color: antiquewhite;
+  padding: 15px;
+  text-align: center;
+  color: aliceblue;
+  transition-property: background-color;
+}
+.button:hover {
+  background-color: blue;
+  border-radius: 8px;
+}
+
+.button:active {
+  background-color: aquamarine;
+  height: 200px;
+}

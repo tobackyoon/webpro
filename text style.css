@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap");
+.bungee {
+  font-family: "Bungee", sans-serif;
+  font-weight: 100;
+}
+.suse {
+  font-family: "SUSE Mono", sans-serif;
+  font-weight: 900;
+}
+.hegarty {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-box {
+  color: #0e0c5eff;
+  width: 600px;
+  font-size: 20px;
+  font-weight: bold;
+
+  line-height: 140%;
+  word-spacing: -2.5%;
+  word-break: keep-all;
+  /* break-all: 글자 하나하나 글자 단위로 줄바꿈 */
+  /* keep-all: 단어 단위로 줄바꿈 */
+
+  text-align: center;
+  /* text-indent: 100px; */
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textbox {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox2 {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox3 {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox4 {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox5 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox6 {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.textbox7 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(232, 184, 126, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
