@@ -124,3 +124,63 @@
   padding: 10px 20px;
   border-radius: 8px;
 }
+
+.overlay2-page,
+.overlay3-page,
+.overlay4-page,
+.overlay5-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 4rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.overlay-content img {
+  width: 40vw;
+  max-width: 600px;
+}
+
+.overlay-content h2 {
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 1px;
+  color: #ffffffff;
+}
+
+.overlay-content p {
+  font-size: 1.4rem;
+  color: #f2f1f1ff;
+  margin-top: 10px;
+}
+
+/* hover 시 이미지와 텍스트 확대 + 나타남 */
+.textbox2-wrapper:hover .overlay-content,
+.textbox3-wrapper:hover .overlay-content,
+.textbox4-wrapper:hover .overlay-content,
+.textbox5-wrapper:hover .overlay-content {
+  opacity: 1;
+  transform: scale(1);
+}
