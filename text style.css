@@ -48,7 +48,7 @@
 }
 .textbox2 {
   position: absolute;
-  top: 33%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -61,7 +61,7 @@
 }
 .textbox3 {
   position: absolute;
-  top: 42%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -74,7 +74,7 @@
 }
 .textbox4 {
   position: absolute;
-  top: 51%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -87,7 +87,7 @@
 }
 .textbox5 {
   position: absolute;
-  top: 60%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -100,7 +100,7 @@
 }
 .textbox6 {
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -113,7 +113,7 @@
 }
 .textbox7 {
   position: absolute;
-  top: 90%;
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
@@ -152,7 +152,6 @@
   align-items: center;
   gap: 1rem;
   text-align: center;
-  opacity: 0;
   transform: scale(0.9);
   transition: transform 0.4s ease, opacity 0.4s ease;
 }
@@ -163,20 +162,15 @@
 }
 
 .overlay-content h2 {
-  font-style: normal;
   font-size: 2.5rem;
-  font-weight: 700;
-  margin-top: 1px;
   color: #ffffffff;
 }
 
 .overlay-content p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #f2f1f1ff;
-  margin-top: 10px;
 }
 
-/* hover 시 이미지와 텍스트 확대 + 나타남 */
 .textbox2-wrapper:hover .overlay-content,
 .textbox3-wrapper:hover .overlay-content,
 .textbox4-wrapper:hover .overlay-content,

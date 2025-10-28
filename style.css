@@ -46,12 +46,3 @@
   height: auto;
   filter: drop-shadow(2px 2px 8px rgba(232, 184, 126, 0.7));
 }
-
-.overlay5 {
-  position: absolute;
-  top: 23%;
-  left: 37.5%;
-  width: 25%;
-  height: auto;
-  filter: drop-shadow(2px 2px 40px rgba(232, 184, 126, 0.7));
-}
